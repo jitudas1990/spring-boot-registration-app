@@ -18,14 +18,6 @@ public class UserService {
 
     @Autowired
     private PasswordEncoder passwordEncoder;
-
-
-    /*public String addUser(UserInfo userInfo) {
-        userInfo.setPassword(passwordEncoder.encode(userInfo.getPassword()));
-        repository.save(userInfo);
-        return "user added to system ";
-    }
-*/
     public List<UserInfo> findUserByEmail(String email) {
         return repository.findAll();
     }
