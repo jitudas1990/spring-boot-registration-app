@@ -1,0 +1,13 @@
+Testing
+1.Registration
+http://localhost:8080/user/registration
+{
+    "name":"bhavyansh",
+    "password":"12345",
+    "email":"bhavyansh@gmail.com",
+    "roles":"ROLE_USER"
+}
+2.Login
+http://localhost:8080
+3.Logout
+http://localhost:8080/logout
